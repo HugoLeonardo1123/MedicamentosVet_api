@@ -115,11 +115,3 @@ app.listen(3000, () => {
   console.log("Servidor está ouvindo na porta 3000.");
 });
 
-//http://localhost:3000/medics Link para usar no Postman
-
-/* Para resgatar uma informação especifica deve informar o "id" e o nome do campo que deseja resgatar
-ex: http://localhost:3000/medics/ID_DO_MEDICAMENTO/NOME_DO_CAMPO 
-
-    http://localhost:3000/medics/65ce6cb4df71482ce67b4c30/especie*/
-
-//
