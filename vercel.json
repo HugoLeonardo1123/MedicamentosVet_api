@@ -1,0 +1,15 @@
+{
+    "version":2,
+    "bilds":[
+        {
+        "src": "src/idex.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "routers":[
+        {
+            "src":"(.*)",
+            "dest":"src/index.ts"
+        }
+    ]
+}
